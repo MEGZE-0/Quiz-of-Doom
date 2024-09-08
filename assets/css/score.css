@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.result-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    position: relative;
+}
+
+.result-message {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Styling for each result item */
+.result-item {
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.result-item h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Question styling */
+.result-item p strong {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.result-item p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+/* Answer and Correct answer styling */
+.result-item p strong {
+    font-weight: bold;
+    color: #007bff; 
+}
+
+.result-item p:nth-of-type(2) {
+    color: #333;
+}
+
+.result-item p:nth-of-type(3) {
+    color: #28a745; 
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.perfect {
+    color: green;
+    font-weight: bold;
+}
+
+.above-average {
+    color: orange;
+    font-weight: bold;
+}
+
+.average {
+    color: blue;
+    font-weight: bold;
+}
+
+.zero {
+    color: red;
+    font-weight: bold;
+}
+
+.flare-animation {
+    animation: flare 1.5s ease-out;
+    -webkit-animation: flare 1.5s ease-out;
+}
+
+@keyframes flare {
+    0% { opacity: 0; transform: scale(0.5); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+

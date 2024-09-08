@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: bisque;
+    background-image: url("pic3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    overflow: hidden;
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+#side-info {
+    width: 40%;
+    background-color: #2e07b9;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#side-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#side-info p {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#login {
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h2 {
+    text-align: right;
+    margin-bottom: 30px;
+    color: #2e07b9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    text-align: right;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    text-align: right;
+    height: 40px;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2e07b9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #458be6;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a {
+    color: #0a07b1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2e07b9;
+}

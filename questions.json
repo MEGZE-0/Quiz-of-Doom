@@ -1,0 +1,212 @@
+[
+    {
+        "question": "What is Node.js?",
+        "options": ["A programming language", "A JavaScript runtime", "A database", "A front-end library"],
+        "answer": "A JavaScript runtime",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which module in Node.js is used for file system operations?",
+        "options": ["http", "url", "fs", "events"],
+        "answer": "fs",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which command is used to initialize a new Node.js project?",
+        "options": ["npm start", "npm init", "npm run", "npm install"],
+        "answer": "npm init",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does require() do in Node.js?",
+        "options": ["Imports a module", "Exports a module", "Creates a new module", "Deletes a module"],
+        "answer": "Imports a module",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is JSX in React?",
+        "options": ["A template engine", "A CSS preprocessor", "A syntax extension for JavaScript", "A database language"],
+        "answer": "A syntax extension for JavaScript",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which method is used to update the state in a functional React component?",
+        "options": ["setState()", "updateState()", "useState()", "changeState()"],
+        "answer": "useState()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is a key prop used for in React lists?",
+        "options": ["To style the list", "To uniquely identify list items", "To iterate through the list", "To handle user events"],
+        "answer": "To uniquely identify list items",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which keyword is used to import modules in Node.js?",
+        "options": ["import", "export", "require", "include"],
+        "answer": "require",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does npm start do in a React project?",
+        "options": ["Starts a new project", "Installs dependencies", "Runs the development server", "Builds the production version"],
+        "answer": "Runs the development server",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which hook is used to perform side effects in React functional components?",
+        "options": ["useEffect()", "useState()", "useContext()", "useReducer()"],
+        "answer": "useEffect()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the purpose of package.json in Node.js?",
+        "options": ["To manage server routes", "To specify the entry point of the application", "To store metadata about the project", "To handle errors in the application"],
+        "answer": "To store metadata about the project",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How can you create a new Express app in Node.js?",
+        "options": ["express.createApp()", "express.createServer()", "express()", "new Express()"],
+        "answer": "express()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is true about React components?",
+        "options": ["They must always be class-based", "They can be function or class-based", "They cannot manage state", "They do not accept props"],
+        "answer": "They can be function or class-based",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the purpose of the useState() hook in React?",
+        "options": ["To handle routing", "To manage side effects", "To define state variables", "To render UI components"],
+        "answer": "To define state variables",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does res.send() do in Express?",
+        "options": ["To send a file", "To end a response", "To send a response to the client", "To render a template"],
+        "answer": "To send a response to the client",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How do you serve static files in an Express app?",
+        "options": ["app.use(express.static())", "app.static()", "app.serveFiles()", "app.serveStatic()"],
+        "answer": "app.use(express.static())",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which lifecycle method is equivalent to useEffect() in class components?",
+        "options": ["componentDidMount", "render", "constructor", "componentWillUnmount"],
+        "answer": "componentDidMount",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the purpose of app.listen() in Node.js?",
+        "options": ["To start the HTTP server", "To load middleware", "To define routes", "To close the server"],
+        "answer": "To start the HTTP server",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which HTTP method is used to submit data to the server?",
+        "options": ["GET", "POST", "PUT", "DELETE"],
+        "answer": "POST",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is a React fragment used for?",
+        "options": ["To group multiple elements", "To manage component state", "To handle side effects", "To format HTML"],
+        "answer": "To group multiple elements",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How do you create a route in Express?",
+        "options": ["app.route()", "app.get()", "app.path()", "app.load()"],
+        "answer": "app.get()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does the useReducer() hook do in React?",
+        "options": ["Manages form submissions", "Replaces state with a reducer", "Handles props", "Fetches data"],
+        "answer": "Replaces state with a reducer",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which file contains the entry point of a React app?",
+        "options": ["App.js", "index.js", "server.js", "main.js"],
+        "answer": "index.js",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does express.json() middleware do?",
+        "options": ["Parses incoming JSON requests", "Renders templates", "Logs requests", "Serves static files"],
+        "answer": "Parses incoming JSON requests",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How can you handle errors in an Express application?",
+        "options": ["By using try-catch blocks", "By using app.use() middleware", "By using res.send() method", "By using next() function"],
+        "answer": "By using app.use() middleware",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the purpose of the useCallback() hook in React?",
+        "options": ["To memoize functions", "To manage side effects", "To handle routing", "To define state variables"],
+        "answer": "To memoize functions",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How do you set up middleware in Express?",
+        "options": ["app.use(middleware)", "app.middleware(middleware)", "app.add(middleware)", "app.set(middleware)"],
+        "answer": "app.use(middleware)",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the purpose of the context API in React?",
+        "options": ["To handle state management", "To make HTTP requests", "To handle routing", "To manage component lifecycle"],
+        "answer": "To handle state management",
+        "difficulty": "high"
+    },
+    {
+        "question": "How can you optimize performance in a React application?",
+        "options": ["By using pure components", "By using context API", "By using hooks", "By using class components"],
+        "answer": "By using pure components",
+        "difficulty": "high"
+    },
+    {
+        "question": "What is the role of the event loop in Node.js?",
+        "options": ["To handle asynchronous operations", "To manage memory allocation", "To perform file system operations", "To execute synchronous code"],
+        "answer": "To handle asynchronous operations",
+        "difficulty": "high"
+    },
+    {
+        "question": "How do you manage dependencies in a React application?",
+        "options": ["By using npm", "By using yarn", "By using both npm and yarn", "By manually including scripts"],
+        "answer": "By using both npm and yarn",
+        "difficulty": "high"
+    },
+    {
+        "question": "How do you handle asynchronous operations in Node.js?",
+        "options": ["By using promises", "By using callbacks", "By using async/await", "All of the above"],
+        "answer": "All of the above",
+        "difficulty": "high"
+    },
+    {
+        "question": "What is the purpose of server-side rendering in React?",
+        "options": ["To improve performance and SEO", "To handle client-side routing", "To manage state", "To handle form submissions"],
+        "answer": "To improve performance and SEO",
+        "difficulty": "high"
+    },
+    {
+        "question": "How can you perform database operations in a Node.js application?",
+        "options": ["By using SQL queries", "By using ORMs", "By using NoSQL databases", "All of the above"],
+        "answer": "All of the above",
+        "difficulty": "high"
+    },
+    {
+        "question": "What is the purpose of the useMemo() hook in React?",
+        "options": ["To memoize expensive calculations", "To handle state updates", "To manage side effects", "To manage context"],
+        "answer": "To memoize expensive calculations",
+        "difficulty": "high"
+    }
+]

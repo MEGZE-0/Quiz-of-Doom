@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Exam</title>
+    <link rel="stylesheet" href="./assets/css/exam.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar">
+      <div id="navbar-left">
+        <img
+          id="profilePicSmall"
+          src=""
+          width="40"
+          height="40"
+          alt="Profile Picture"
+        />
+        <h1>
+          Welcome, <span id="username"></span>! Ready to question your life
+          decisions?
+        </h1>
+      </div>
+      <button id="logoutButton">Logout</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+      <div id="main-content">
+        <!-- Quiz Section -->
+        <section id="quiz">
+          <div class="quiz-container">
+            <div class="quiz-header">
+              <h1 class="text-center">Quiz of Doom</h1>
+              <span class="status">
+                <span id="currentQuestion"></span> Out of
+                <span id="totalNumberOfQuestions"></span> Questions
+              </span>
+              <div id="timer">
+                Time Left: <span id="time-left"></span> seconds. Enough time to
+                contemplate your life choices.
+              </div>
+            </div>
+
+            <div class="quiz-body">
+              <h5 class="d-inline">Q:</h5>
+              <h5 id="question" class="d-inline"></h5>
+              <div id="rowAnswer"></div>
+              <div id="alert" class="alert alert-danger mt-3">
+                Please Choose Your Answer... Or just wing it like you usually
+                do.
+              </div>
+              <button class="btn-bookmark" id="bookmark">Bookmark</button>
+              <button class="btn-back" id="back">Back</button>
+              <button class="btn-submit" id="next">Next</button>
+              <button class="btn-submit" id="submit">Submit</button>
+            </div>
+            <div id="progress-bar-container">
+              <div id="progress-bar" class="progress-bar-success"></div>
+            </div>
+          </div>
+        </section>
+        <div id="darkHumor" class="dark-humor-message"></div>
+
+        <!-- Bookmarked Questions Section -->
+        <section id="bookmarked-questions" class="book-overflow">
+          <h2>Bookmarked Questions</h2>
+          <div id="bookmarks-container"></div>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/exam.js"></script>
+  <footer>
+    <p>
+      © 2024 Quiz Masters. We’ll keep your results a secret, but we can't
+      guarantee that the universe will. Or our algorithm. Or your friends.
+    </p>
+  </footer>
+</html>
